@@ -1,0 +1,54 @@
+
+/* Enleve la marge du style appliqué de base du css. */
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* -----------NAVBAR------------*/
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    margin-right: 405px;
+}
+
+#logo{
+    width: 120px;
+    height: 40px;
+}
+
+ul {
+    display: flex;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+li{
+    list-style: none;
+    margin: 15px;
+}
+
+#logo{
+    margin-left: 400px;
+}
+
+li a{
+    text-decoration: none;  /* Enleve les trait des texte */
+}
+
+#btn2{
+    background-color: #00b289;
+    color: white;
+    width: 100px;
+    height: 30px;
+    border: 1px solid #00b289;
+    border-radius: 4px;
+}
+
+#btn2 a:hover{
+    background-color: aqua;
+}
